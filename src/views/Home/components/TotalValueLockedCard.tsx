@@ -21,7 +21,7 @@ const TotalValueLockedCard = () => {
   const { t } = useTranslation()
   const data = useGetStats()
   const totalLiquidity = 1800
-  const dailyVolume = 1800
+  const dailyVolume = 800
 
   return (
     <StyledTotalValueLockedCard>
