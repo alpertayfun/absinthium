@@ -29,7 +29,6 @@ const TotalValueLockedCard = () => {
         <Heading scale="xl" mb="24px">
           {t('AMM Stats')}
         </Heading>
-        {data ? (
           <>
             <Row>
               <Text>{t('Total Liquidity')}:</Text>
@@ -40,9 +39,6 @@ const TotalValueLockedCard = () => {
               <Text bold>${dailyVolume}</Text>
             </Row>
           </>
-        ) : (
-          <Skeleton height={66} />
-        )}
       </CardBody>
     </StyledTotalValueLockedCard>
   )
