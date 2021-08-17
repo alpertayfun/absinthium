@@ -20,8 +20,8 @@ const Row = styled.div`
 const TotalValueLockedCard = () => {
   const { t } = useTranslation()
   const data = useGetStats()
-  const totalLiquidity = 84850
-  const dailyVolume = 31950
+  const totalLiquidity = 86850
+  const dailyVolume = 33950
 
   return (
     <StyledTotalValueLockedCard>
